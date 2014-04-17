@@ -17,20 +17,24 @@ So I wrote this tool.
 compile
 -------
 you need install gmake gcc and libpcap-dev first, then just run
-$ make release
+
+    $ make release
 
 you will get the binary at the bin dir
 
 usage
 -----
-usage: htcpflow [-Ce] pcapfile
-   -C do not display packet description
-   -e output in alternating colors
+    usage: htcpflow [-Ce] pcapfile
+       -C do not display packet description
+       -e output in alternating colors
 
 sample
 ------
 use tcpdump to get a pcap file
-$ tcpdump tcp port 80 -w 1.pcap
+
+    $ tcpdump tcp port 80 -w 1.pcap
+
 use htcpflow to get a hex console output
-$ htcpdump -e 1.pcap
+
+    $ htcpdump -e 1.pcap
 
