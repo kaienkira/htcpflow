@@ -8,7 +8,7 @@ AR_ ?= ar crv
 RM_ ?= rm -f
 SED_ ?= sed
 
-CFLAGS ?= -Wall -c -std=c99 -D_GNU_SOURCE $(C_FLAG)
+CFLAGS ?= -Wall -c -std=gnu99 $(C_FLAG)
 CPPFLAGS ?= -Wall -Wno-deprecated -c $(CPP_FLAG)
 ELFLAGS ?= $(EL_FLAG)
 DLFLAGS ?= -shared -fPIC 
