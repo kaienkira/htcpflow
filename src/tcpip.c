@@ -38,7 +38,7 @@ void process_tcp_packet(const struct timeval *ts,
                         const char *buffer, size_t size)
 {
     static const char *colors[] = {"\033[0;34m", "\033[0;31m"};
-    static int current_color = 0;
+    static int current_color = 1;
     static u_int32_t last_src_addr = 0;
     static int last_src_port = 0;
     static u_int32_t last_dst_addr = 0;
