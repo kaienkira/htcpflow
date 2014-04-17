@@ -28,8 +28,8 @@ usage
        -C do not display packet description
        -e output in alternating colors
 
-sample
-------
+example
+-------
 use tcpdump to get a pcap file
 
     $ tcpdump tcp port 80 -w 1.pcap
