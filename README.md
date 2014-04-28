@@ -39,5 +39,6 @@ use htcpflow to get a hex console output
     $ htcpdump -e 1.pcap
 
 combine tcpdump and htcpflow for live capture
+
     $ tcpdump -U tcp port 80 -w - | htcpflow -Ce - 
 
