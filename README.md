@@ -36,7 +36,7 @@ use tcpdump to get a pcap file
 
 use htcpflow to get a hex console output
 
-    $ htcpdump -e 1.pcap
+    $ htcpflow -e 1.pcap
 
 combine tcpdump and htcpflow for live capture
 
