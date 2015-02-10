@@ -42,3 +42,4 @@ combine tcpdump and htcpflow for live capture
 
     $ tcpdump -U tcp port 80 -w - | htcpflow -Ce - 
 
+![snapshot](https://github.com/kaienkira/htcpflow/raw/master/snapshot.png)
